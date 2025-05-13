@@ -1,0 +1,154 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f5f7fa;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.dashboard-header h1 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 10px;
+}
+
+/* Keep your original button styles */
+.button-group .btn {
+  padding: 6px 14px;
+  margin-left: 10px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+
+.btn-logout {
+  background-color: #d9534f;
+}
+
+.btn-chart {
+  background-color: #2c3e50;
+}
+
+.balance-card {
+  background-color: #eaf6ff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.balance-card h2 {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.income {
+  color: green;
+  font-weight: 600;
+}
+
+.expense {
+  color: red;
+  font-weight: 600;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.4rem 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.btn-add {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.6rem 1rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.recent-title {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0.6rem;
+  background-color: #fff;
+  margin: 0.4rem 0;
+  border-radius: 6px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.text-green {
+  color: green;
+  font-weight: 600;
+}
+
+.text-red {
+  color: red;
+  font-weight: 600;
+}
+
+.chart-container {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+/* Global body styles */
+body {
+  background-color:rgb(233, 231, 208); /* Set your desired background color */
+  margin: 0;
+  padding: 0;
+  display: grid; /* Enable grid */
+  place-items: center; /* Center both horizontally and vertically */
+  min-height: 100vh; /* Ensure the body takes full height */
+}
+
+/* Dashboard container styles */
+.dashboard-container {
+  background-color: white; /* Set the background for the main content */
+  margin: 20px; /* Optional: Adds space around the container */
+  padding: 20px; /* Space inside the container */
+  border-radius: 8px; /* Rounded corners */
+  width: 80%; /* Set a max width, or use a fixed size like 600px */
+  max-width: 800px; /* Optional: to prevent it from becoming too wide */
+}
